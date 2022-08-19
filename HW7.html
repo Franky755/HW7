@@ -1,0 +1,115 @@
+<!doctype html>
+	<html lang="en">
+		<head>
+			<meta charset="utf-8"/>
+			<meta name="author" tittle="franky75"/>
+			<meta name="description" title="Home work 7 wrote by franky75"/>
+			<title> HW7 by franky75</title>
+			<link rel="stylesheet" href="nomarlize.css"/>
+			<style>
+				*{
+					box-sizing: border-box;
+					-moz-box-sizing: border-box;
+					-webkit-box-sizing: border-box;
+					margin: 0;
+					padding: 0;
+				}
+				body{
+					font-family: helvetica, sans-serif;
+					font-weight: 300;
+					line-height: 1.254;
+					text-align: center;
+				}
+/*==chia cot==*/
+				.container{
+					position: relative;
+					left: 0;
+					width: 900px;
+					height: 950px;
+					margin: 0;
+					padding: 30px;
+					background: #E2E2E2;
+				}
+				.menu li{
+					list-style-type: none;
+					display: inline;
+					margin: 10px;
+				}
+				.menu-title{
+
+					height: 150px;
+					width: 100%;
+					padding-top: 30px;
+				}
+				.menu-title h2{
+					padding-bottom: 0;
+				}
+/*== line của h2==*/
+			  .menu-title h2:after {
+				    background-color: #339999;
+				    content: "";
+				    display: block;
+				    height: 3px;
+				    margin: 5px auto 30px;
+				    position: relative;
+				    width: 75px;
+				}
+/*==List framework==*/
+				.framework li{
+					list-style-type: none;
+					height: 200px;
+					width: 250px;
+					color: #fff;
+					line-height: 200px;
+					display: inline-block;
+					background: #42A4BD;
+					margin: 12px;
+
+				}
+/*===Trang tri==*/
+				a{
+						text-decoration: none;
+						transition: all 0.5s;
+						-moz-transition: all 0.5s;
+						-webkit-transition: all 0.5s;
+				}
+				a:hover {
+					color: #000;
+					background: #E7FB8B;
+				}
+
+			</style>
+
+		</head>
+		<body>
+			<div class="container">
+				<div class="menu-title">
+						<h2 class="header-title">MY PORTFOLIO</h2>
+						<ul class="menu">
+							<li id="All"><a href="https://developer.mozilla.org/en-US/" target="blank">All </a></li>
+							<li> <a href="https://developer.mozilla.org/en-US/" target="blank">Web App </a></li>
+							<li> <a href="https://developer.mozilla.org/en-US/" target="blank">UI/UX </a></li>
+							<li> <a href="https://developer.mozilla.org/en-US/" target="blank">Graphics Design </a> </li>
+							<li> <a href="https://developer.mozilla.org/en-US/" target="blank">Mobile App </a> </li>
+							<li> <a href="https://developer.mozilla.org/en-US/" target="blank">Branding </a></li>
+							<li><a href="https://developer.mozilla.org/en-US/" target="blank">Marketing </a></li>
+						</ul>
+				</div>
+				<div class="framework">
+					<ul id="framework">
+						<li>React Framework</li>
+						<li>Angular Framework</li>
+						<li>Vue.js Framework</li>
+						<li>Ember.js</li>
+						<li>jQuery</li>
+						<li>Semantic-UI Framework</li>
+						<li>Backbone.js</li>
+						<li>Preact Framework</li>
+						<li>Svelte Framework</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</body>
+
+	</html>
